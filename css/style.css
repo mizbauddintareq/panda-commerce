@@ -1,0 +1,9 @@
+.nav-bar {
+  border-radius: 12px;
+  box-shadow: 5px 5px 10px #a9a9aa77, inset -5px -5px 10px #ffffff7e;
+  background: #f2f2f3;
+}
+.nav-link {
+  color: #ff267b;
+  font-weight: bold;
+}
