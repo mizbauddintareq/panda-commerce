@@ -39,5 +39,49 @@ body {
   box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
   border: 2px solid white;
 }
-
 /* Header Styles Ends */
+
+/* Categories Styles Styles */
+.watch {
+  background: linear-gradient(#ff9c35 100%, #ffffff 100%);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 15px;
+}
+.bag {
+  background: linear-gradient(#ff589b 100%, #ffffff 100%);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 15px;
+}
+.shoes {
+  background: linear-gradient(#4289ff 100%, #ffffff 100%);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 15px;
+}
+/* Categories Styles Ends */
+
+/* Backpack Styles Starts */
+.title-and-btn a {
+  text-decoration: none;
+  color: #ff9c35;
+  font-weight: bold;
+}
+.card {
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px #a9a9aa77, inset -5px -5px 10px #ffffff7e;
+  background: #f2f2f3;
+  text-align: center;
+}
+.card-button {
+  color: white;
+  padding: 0.6em 1.5em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #ff9c35;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+/* Backpack Styles Ends */
