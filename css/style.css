@@ -85,3 +85,25 @@ body {
   box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
 }
 /* Backpack Styles Ends */
+
+/* Subscribe Styles Starts */
+.subscribe {
+  background-color: #feeae9;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px #a9a9aa77, inset -5px -5px 10px #ffffff7e;
+}
+input {
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+.subscribe-btn {
+  background-color: #ff267b;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  border: 1px solid white;
+}
+/* Subscribe Styles Ends */
