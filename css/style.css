@@ -14,18 +14,18 @@ body {
   background: #f2f2f3;
 }
 .nav-link,
-.carousel-item h3 {
+.slider-item h3 {
   color: #ff267b;
   font-weight: bold;
 }
-.carousel-item p {
+.slider-item p {
   line-height: 1.7;
   letter-spacing: 1.5px;
 }
-.carousel-item {
+.slider-item {
   background-color: #feeae9;
 }
-.carousel-inner {
+.slider-inner {
   border-radius: 15px;
   box-shadow: 5px 5px 10px #a9a9aa77, inset -5px -5px 10px #ffffff7e;
   background: #feeae9;
@@ -69,7 +69,7 @@ footer a {
   color: #ff9c35;
   font-weight: bold;
 }
-.card {
+.main-card {
   border-radius: 15px;
   box-shadow: 5px 5px 10px #a9a9aa77, inset -5px -5px 10px #ffffff7e;
   background: #f2f2f3;
@@ -108,3 +108,10 @@ input:focus {
   border: 1px solid white;
 }
 /* Subscribe Styles Ends */
+@media only screen and (max-width: 688px) {
+  .slider-item p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
